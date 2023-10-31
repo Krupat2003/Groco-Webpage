@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100vw;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+nav h1 {
+    color: rgb(3, 3, 67);
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px gray
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar li {
+    padding-left: 20px;
+    color: rgb(3, 3, 67);
+    text-decoration: none;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    color: rgb(3, 3, 67);
+}
+
+.icon i {
+    padding-left: 18px;
+}
+
+/* home section start */
+.home {
+    width: 100vw;
+    height: 73vh;
+    background-image: url('https://media.istockphoto.com/id/936991552/photo/food-background.webp?b=1&s=170667a&w=0&k=20&c=AC2NvmJu4kbG5w4gBpgyHRfpWR-S6D-xjuqkCYOk7PI=');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.home h1 {
+    padding-top: 12%;
+    color: rgb(3, 3, 67);
+}
+
+.home .text {
+    color: #ff8c00;
+}
+
+.home p {
+    color: rgb(77, 74, 74);
+    padding-top: 15px;
+}
+
+.btn {
+    border: 1px solid #030343;
+    background-color: transparent;
+    padding: 9px 17px;
+    color: rgb(3, 3, 67);
+    border-radius: 4px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+/* featurs */
+
+.featurs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030343;
+    margin-top: 28px;
+}
+
+
+.fector{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.heading {
+    color: #030343;
+}
+
+.fer-img img{
+    width: 60%;
+    height: 15%;
+    position: relative;
+   
+}
+.fer-hed h1{
+    color: white;
+    position: absolute;
+    z-index: 5;
+    margin-top: -17px;
+    margin-left: 45px;
+}
+
+.featurs-card {
+    width: 25vw;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-left: 20px;
+}
+
+.featurs-card h4 {
+    padding-top: 15px;
+    font-size: 1.2rem;
+}
+
+.featurs-card p {
+    font-size: 15px;
+    color: gray;
+    padding-top: 10px;
+}
+
+/* products  */
+
+.product-icon{
+    color: #ff8c00;
+    padding-top: 10px;
+}
+
+
+
+/* products categories  */
+.fer-imgs img{
+    width: 65%;
+    height: 15%;
+    position: relative;
+}
+
+/* feedback  */
+.fer-imgss img{
+    width: 51%;
+    height: 15%;
+    position: relative;
+}
+
+.feed-img img{
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 50%;
+    height: 10vw;
+    width: 10vw;
+}
+
+/* blogs  */
+.fer-imgsss img{
+    width: 45%;
+    height: 15%;
+    position: relative;
+}
+
+.blogs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030343;
+    margin-top: 28px;
+}
+.heading {
+    color: #030343;
+}
+
+.blogs-img img{
+    width: 100%;
+    height: 39vh;
+    position: relative;
+}
+.blogs-card {
+    width: 25vw;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.des{
+    padding-left: 20px;
+}
+
+.blogs-card h4 {
+    padding-top: 15px;
+    font-size: 1.2rem;
+}
+
+.blogs-card p {
+    font-size: 15px;
+    color: gray;
+    padding-top: 10px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    padding-bottom: 3%;
+    background-color: rgb(238, 238, 238);
+}
+
+.footer .section{
+    width: 20vw;
+    padding: 30px 0;
+}
+.section h1{
+    color: #030343;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+.section p{
+    color: rgb(89, 89, 89);
+    
+}
+.section p i{
+    color: #030343;
+}
+ .footer-icon{
+    color: #030343;
+    font-size: 1.2rem;
+}
+.footer-icon i{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+ .section .h1{
+    padding-top: 55px;
+ }
